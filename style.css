@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/background.png);
+    background-position: 60%;
+    color: rgb(255, 251, 245);
+    font-family: 'Rozha One', serif;
+}
+
+h1 {
+    font-size: 7em;
+    text-shadow: 2px 2px 5px rgb(40, 30, 10);
+}
+
+p {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 5px rgb(40, 30, 10);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: auto;
+    align-items: center;
+    margin: 0 auto;
+    padding: 36px;
+    text-shadow: 2px 2px 5px rgb(40, 30, 10);
+}
+
+.countdown {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 35px;
+    min-width: 550px;
+}
+
+.countdown_item {
+    padding: 10px;
+    min-width: 5px;
+}
+
+.expired {
+    margin: 0 auto;
+    font-size: 50px;
+    color:chocolate;
+}
+
+.js-input {
+    font-size: 1.3rem;
+    border-radius: 5px;
+    margin: 15px;
+
+}
+
+.js-btn {
+    cursor: pointer;
+    font-size: 2rem;
+    color:antiquewhite;
+    border: white;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    
+}
+
+.input {
+    margin: 30px;
+}
